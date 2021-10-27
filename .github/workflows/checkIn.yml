@@ -1,0 +1,27 @@
+name: G-CheckIn
+on:
+  push:
+    branches: [ main ]
+    paths-ignore: 
+      - 'README.md'
+      - 'imgs/**'
+  schedule:
+    - cron: 30 1 * * *
+  watch:
+    types: [started]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: setup Node.js
+        uses: actions/setup-node@v1
+        with:
+          node-version: '14.x'
+      - name: install axios
+        run: npm install axios
+      - name: CheckIn
+        run: node checkin.js
+        env:
+          SCKEY: ${{ secrets.SCKEY }}
+          COOKIE: ${{ secrets.COOKIE }}
