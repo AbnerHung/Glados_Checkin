@@ -2,8 +2,6 @@ name: G-CheckIn
 on:
   push:
     branches: [ main ]
-    paths-ignore: 
-      - 'README.md'
   schedule:
     - cron: 30 1 * * *
   watch:
