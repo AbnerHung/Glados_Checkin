@@ -1,4 +1,2 @@
 # G_checkin
-test if workflows works
-
-it works！
+Glados auto checkin script.
