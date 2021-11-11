@@ -33,7 +33,7 @@ const GLaDOSCheckIn = async () => {
     const checkInMessage = (await checkIn())?.data?.message;
     const leftDays = parseInt((await status())?.data?.data?.leftDays);
     console.log(leftDays, checkInMessage);
-    if (SCKEY) {
+    if (SENDKEY) {
         server(checkInMessage, leftDays);
     }
 }
