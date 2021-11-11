@@ -1,4 +1,4 @@
-# G_checkin
+# Glados_checkin
 Glados auto checkin script.
 ## Fork此项目
 点击Star, 点击Fork
