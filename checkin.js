@@ -1,5 +1,4 @@
 const axios = require("axios");
-
 const SCKEY = process.env.SCKEY;
 axios.defaults.headers.common.cookie = process.env.COOKIE;
 
