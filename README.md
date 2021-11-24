@@ -1,5 +1,7 @@
 # Glados_checkin
 Glados auto checkin script.
+
+## 科班项目，禁止非科班访问
 ## Fork此项目
 点击Star, 点击Fork
 ![1.png](https://user-images.githubusercontent.com/59683877/141311261-f03aa9e5-972f-4a99-9e76-182b86cda314.png)
