@@ -39,4 +39,3 @@ const GLaDOSCheckIn = async () => {
 }
 
 GLaDOSCheckIn();
-
